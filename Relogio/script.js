@@ -14,9 +14,11 @@ function relogio(){
         seg="0"+seg;
     }
     
-    var horas=hor + ":" + min + ":" + seg;
+    var horas= hor + ":" + min + ":" + seg;
     
     document.getElementById("rel").value=horas;
 }
 
 var timer=setInterval(relogio,1000);
+
+
